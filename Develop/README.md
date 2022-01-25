@@ -1,32 +1,28 @@
-# defef
-
-## Description 
-fefe
+# Readme-Generator
 
 ## Table of contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Contact Me](#contact-me)
 
-## Installation
-Instructions for installation: fewfewf
+## General info
 
+The application creates a professional README file based on the user input. The user is asked about fields like title, description, tests, usage and contacts and once he provides the answers, the data are displayed as a readme file for that project
+## Technologies
 
-## Usage
-Usage informations: ffefefe
+Project is created with:
+* Node.js
+* JavaScript
 
+## Project Status
+* Working 
 
-## Licence
+## Room for Improvement
+Room for improvement:
+* 
 
+## Contact me 
+Created by [Nico Pasqualini](https://nico749.github.io/Personal-portfolio-/) - feel free to contact me!
 
-## Contributing
-People who contributed to this project: ff3e
-
-## Tests
-Tests to run: fefewff32r
-
-## Questions
-If you have any questions contact me on my mail: f3f3 or search me on GitHub: f3f3r3
