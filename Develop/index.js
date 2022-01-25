@@ -1,49 +1,46 @@
-// TODO: Include packages needed for this application
 const inquirer =require('inquirer')
 const fs=require('fs')
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [ {
+  type: 'input',
+  name: 'title',
+  message: 'What is the project title?',
+},
+{
+    type: 'input',
+    name: 'description',
+    message: 'Brief description of the project?',
+  },{
+    type: 'input',
+    name: 'instructions',
+    message: 'What are the installation instructions?',
+  },
+  {
+    type: 'input',
+    name: 'usage_info',
+    message: 'What is the usage information?',
+  },
+  {
+    type: 'input',
+    name: 'test',
+    message: 'What are the test intructions?',
+  },
+  {
+    type: 'input',
+    name: 'contribution',
+    message: 'What are the contribution guidelines?',
+  },{
+    type: 'input',
+    name: 'github',
+    message: 'What is your GitHub profile?',
+  },{
+    type: 'input',
+    name: 'mail',
+    message: 'What is your email?',
+  }];
 
 inquirer
-  .prompt([
-    {
-      type: 'input',
-      name: 'title',
-      message: 'What is the project title?',
-    },
-    {
-        type: 'input',
-        name: 'description',
-        message: 'Brief description of the project?',
-      },{
-        type: 'input',
-        name: 'instructions',
-        message: 'What are the installation instructions?',
-      },
-      {
-        type: 'input',
-        name: 'usage_info',
-        message: 'What is the usage information?',
-      },
-      {
-        type: 'input',
-        name: 'test',
-        message: 'What are the test intructions?',
-      },
-      {
-        type: 'input',
-        name: 'contribution',
-        message: 'What are the contribution guidelines?',
-      },{
-        type: 'input',
-        name: 'github',
-        message: 'What is your GitHub profile?',
-      },{
-        type: 'input',
-        name: 'mail',
-        message: 'What is your email?',
-      }
-  ])
+  .prompt(questions)
   .then((data) => {    
 const readme=  `# ${data.title}
 
