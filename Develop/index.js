@@ -81,7 +81,7 @@ If you have any questions contact me on my mail: ${data.mail} or search me on Gi
 
 
 
-fs.writeFile('README.md', readme, (err) =>
+fs.writeFile('Readme.md', readme, (err) =>
       err ? console.log(err) : console.log('Success!')
     );
   });

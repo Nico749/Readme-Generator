@@ -1,7 +1,7 @@
-# math master
+# defef
 
 ## Description 
-the program make an operation when we pass some values
+fefe
 
 ## Table of contents
 * [Installation](#installation)
@@ -12,21 +12,21 @@ the program make an operation when we pass some values
 * [Questions](#questions)
 
 ## Installation
-Instructions for installation: follow the manual page 5
+Instructions for installation: fewfewf
 
 
 ## Usage
-Usage informations: manual page 11
+Usage informations: ffefefe
 
 
 ## Licence
 
 
 ## Contributing
-People who contributed to this project: me and myself
+People who contributed to this project: ff3e
 
 ## Tests
-Tests to run: all the tests are required
+Tests to run: fefewff32r
 
 ## Questions
-If you have any questions contact me on my mail: fakemail@gmail.com or search me on GitHub: http://fake_github_profile
+If you have any questions contact me on my mail: f3f3 or search me on GitHub: f3f3r3
