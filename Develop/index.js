@@ -1,10 +1,10 @@
 const inquirer =require('inquirer')
 const fs=require('fs')
-// TODO: Create an array of questions for user input
-const questions = [ {
-  type: 'input',
-  name: 'title',
-  message: 'What is the project title?',
+//storing questions 
+const questions = [{
+   type: 'input',
+   name: 'title',
+   message: 'What is the project title?',
 },
 {
     type: 'input',
@@ -27,6 +27,11 @@ const questions = [ {
   },
   {
     type: 'input',
+    name: 'license',
+    message: 'What is the type of license?',
+  },
+  {
+    type: 'input',
     name: 'contribution',
     message: 'What are the contribution guidelines?',
   },{
@@ -42,6 +47,7 @@ const questions = [ {
 inquirer
   .prompt(questions)
   .then((data) => {    
+//creating readme and fill it with data from user 
 const readme=  `# ${data.title}
 
 ## Description 
@@ -58,13 +64,11 @@ ${data.description}
 ## Installation
 Instructions for installation: ${data.instructions}
 
-
 ## Usage
 Usage informations: ${data.usage_info}
 
-
-## Licence
-
+## License
+License: ${data.license}
 
 ## Contributing
 People who contributed to this project: ${data.contribution}
@@ -73,21 +77,13 @@ People who contributed to this project: ${data.contribution}
 Tests to run: ${data.test}
 
 ## Questions
-If you have any questions contact me on my mail: ${data.mail} or search me on GitHub: ${data.github}
-`
+If you have any questions contact me on my mail: ${data.mail} or search me on GitHub: ${data.github}`
 
 
-
+//write the readme file
 fs.writeFile('Readme.md', readme, (err) =>
       err ? console.log(err) : console.log('Success!')
     );
   });
 
 
-
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-//init();

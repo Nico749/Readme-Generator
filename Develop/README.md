@@ -1,7 +1,7 @@
 # project trial 2
 
 ## Description 
-the project does stuff
+some random description
 
 ## Table of contents
 * [Installation](#installation)
@@ -12,21 +12,19 @@ the project does stuff
 * [Questions](#questions)
 
 ## Installation
-Instructions for installation: some random instruction
-
+Instructions for installation: follow the manual 
 
 ## Usage
-Usage informations: some informations about the usage
+Usage informations: read the script
 
-
-## Licence
-
+## License
+License: private license
 
 ## Contributing
-People who contributed to this project: some random guidelines
+People who contributed to this project: read the manual again
 
 ## Tests
-Tests to run: some instructions about testing 
+Tests to run: follow the tutorial
 
 ## Questions
-If you have any questions contact me on my mail: fakemail@gmail.com or search me on GitHub: http://github.com/fake_profile
+If you have any questions contact me on my mail: fakemail.com or search me on GitHub: www.fakegithub.com

@@ -21,7 +21,7 @@ Project is created with:
 
 ## Room for Improvement
 Room for improvement:
-* 
+* Implement the license function to return a different badge based on the type of license
 
 ## Contact me 
 Created by [Nico Pasqualini](https://nico749.github.io/Personal-portfolio-/) - feel free to contact me!
