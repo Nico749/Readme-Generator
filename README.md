@@ -4,6 +4,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Project Status](#project-status)
+* [Walkthrough Video](#walkthrough-video)
 * [Room for Improvement](#room-for-improvement)
 * [Contact Me](#contact-me)
 
@@ -18,6 +19,9 @@ Project is created with:
 
 ## Project Status
 * Working 
+
+## Walkthrough Video
+The following [link](https://watch.screencastify.com/v/1CowQHTrKPaUtruwncVf) shows a brief video about the functionalities of the application
 
 ## Room for Improvement
 Room for improvement:
